@@ -26,5 +26,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency("mocha", "0.14.0")
   s.add_development_dependency("rake", "0.9.2.2")
   s.add_development_dependency("nokogiri")
-  s.add_development_dependency("test-unit", "3.0.9")
+  s.add_development_dependency("test-unit")
 end
