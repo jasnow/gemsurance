@@ -20,7 +20,7 @@ module Gemsurance
         assert_equal '8.4.7', tds[1].text.strip
         assert_equal '8.4.8', tds[2].text.strip
         assert_equal 'Vulnerable', tds[3].at('strong').text.strip
-        assert_match /CVE.*2013-0156/m, tds[4].text.strip
+        assert_match(/CVE.*2013-0156/m, tds[4].text.strip)
 
         tds = html.css('tr.success td')
         assert_equal 'sweet', tds[0].at('strong').text.strip
