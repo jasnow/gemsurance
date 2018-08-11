@@ -10,10 +10,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     gems (0.8.3)
-    git (1.4.0)
+    git (1.5.0)
     metaclass (0.0.4)
     mini_portile2 (2.3.0)
-    mocha (1.6.0)
+    mocha (1.7.0)
       metaclass (~> 0.0.1)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
