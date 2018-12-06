@@ -2,15 +2,17 @@ PATH
   remote: .
   specs:
     gemsurance (0.8.0)
-      bundler (~> 1.2)
-      gems (~> 0.8)
-      git (~> 1.2)
+      bundler
+      gems
+      git
 
 GEM
   remote: https://rubygems.org/
   specs:
-    gems (0.8.3)
+    gems (1.1.1)
+      json
     git (1.5.0)
+    json (2.1.0)
     metaclass (0.0.4)
     mini_portile2 (2.3.0)
     mocha (1.7.0)
@@ -33,4 +35,4 @@ DEPENDENCIES
   test-unit
 
 BUNDLED WITH
-   1.17.1
+   2.0.0

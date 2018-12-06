@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
   s.files                     = `git ls-files -- bin lib`.split("\n")
   s.executables               = ["gemsurance"]
 
-  s.add_dependency("bundler", "~> 1.2")
-  s.add_dependency("git", "~> 1.2")
-  s.add_dependency("gems", "~> 0.8")
+  s.add_dependency("bundler")
+  s.add_dependency("git")
+  s.add_dependency("gems")
 
   s.add_development_dependency("mocha")
   s.add_development_dependency("rake")
