@@ -19,4 +19,3 @@ matrix:
     - rvm: ruby-head
 
 cache: bundler
-sudo: false
