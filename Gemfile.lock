@@ -19,7 +19,7 @@ GEM
       metaclass (~> 0.0.1)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
-    power_assert (1.1.4)
+    power_assert (1.1.5)
     rake (12.3.3)
     test-unit (3.3.3)
       power_assert
