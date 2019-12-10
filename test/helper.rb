@@ -6,7 +6,7 @@ require 'rubygems'
 
 require 'gemsurance'
 require 'test/unit'
-require "mocha/setup"
+require 'mocha/test_unit'
 require 'nokogiri'
 
 class Test::Unit::TestCase
