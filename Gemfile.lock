@@ -10,13 +10,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     gems (1.2.0)
-    git (1.5.0)
+    git (1.6.0)
+      rchardet (~> 1.8)
     mini_portile2 (2.4.0)
     mocha (1.11.2)
-    nokogiri (1.10.7)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     power_assert (1.1.5)
     rake (13.0.1)
+    rchardet (1.8.0)
     test-unit (3.3.5)
       power_assert
 
